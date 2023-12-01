@@ -11,7 +11,7 @@ function App() {
   return (
   <>
     <SideMenu/>
-    {/* <Home/> */}
+    <Home/>
     <DesignProyects/>
     <Button/>
   </>

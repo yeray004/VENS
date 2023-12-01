@@ -1,0 +1,93 @@
+.maquetacion{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.maquetacion div{
+    display: flex;
+    width: 45%;
+    margin-bottom: 1em;
+    border: solid #000 2px;
+    padding: 1rem;
+    text-align: end;
+    align-items: end;
+    font-weight: 500;
+}
+.maquetacion div p{
+    margin: 1em;
+    font-size: 1.2em;
+}
+.maquetacion h3{
+    margin: 10px;
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+}
+.maquetacion a:hover{
+    background-color: var(--color-viche-green);
+    width: 100%;
+    text-align: center;
+}
+.maquetacion a{
+    text-align: center;
+}
+.maquetacion1{
+    margin: 1em;
+    width: 45%;
+}
+
+.proyectView{
+    display: flex;
+    flex-direction: column;
+    padding: 3em;
+}
+.proyectSection1, .proyectSection2, .proyectSection3{
+    display: flex;
+    width: 100%;
+    margin-bottom: 1em;
+    justify-content: space-between;
+}
+.proyectSection1{
+    justify-content: center;
+}
+.proyectSection1 img{
+    display: flex;
+    width: 100%;
+}
+.proyectSection2 div, .proyectSection2 p{
+    width: 49%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: var(--color-pale-pink);
+}
+.proyectSection2 p{
+    height: 100%;
+    margin: 0 0 0 1em;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+.proyectSection2 a, .maquetacion a{
+    background-color: white;
+    width: 50%;
+    padding: 10px;
+    font-size: 1.7em;
+    text-decoration: none;
+    color: #000;
+    border: solid #000 2px;
+    transition: all .5s;
+    
+    text-align: center;
+}
+.proyectSection2 a:hover{
+    background-color: var(--color-viche-green);
+    border-radius: 100px;
+}
+
+.proyectSection3{
+    flex-direction: row;
+}
+.proyectSection3 img{
+    width: 49%;
+    border: solid 1px #000;
+}

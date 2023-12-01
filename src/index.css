@@ -14,8 +14,8 @@ body{
 }
 #root{
   display: flex;
+  flex-direction: column;
 }
 .sideMenuSpace{
-  width: 100%;
   margin-left: 25%; /* Afecta directamente SideMenu.css en la etiqueta aside (Clase que contienen todas las vistas)  */
 }
