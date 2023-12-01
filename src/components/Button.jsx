@@ -1,8 +1,8 @@
 import React from 'react'
 import './Button.css'
-import mas from '../assets/MENU DESPLEGABLE/+.rosado.png'
-import igIcon from '../assets/MENU DESPLEGABLE/insta_rosado.png'
-import whatsapp from '../assets/MENU DESPLEGABLE/whatsapp_rosado.png'
+import mas from '../assets/MENU-DESPLEGABLE/masRosado.png'
+import igIcon from '../assets/MENU-DESPLEGABLE/insta_rosado.png'
+import whatsapp from '../assets/MENU-DESPLEGABLE/whatsapp_rosado.png'
 import mail from '../assets/MENU DESPLEGABLE/correo_rosado.png'
 
 
