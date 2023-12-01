@@ -1,0 +1,41 @@
+aside{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    width: 25%;
+    height: 100%;
+    z-index: 100;
+    color: #fff;
+    position: fixed;
+}
+.menuLogo{
+    width: 80%;
+    height: auto;
+    margin: 8% 10%;
+}
+.ulMenu{
+    padding: 0 5%;
+}
+.liMenu{
+    display: flex;
+    align-items: center;
+    padding: 1px;
+    margin-bottom: 1.5em;
+    border: solid 2px #fff;
+    border-radius: 100px;
+    transition: all .25s;
+}
+.imgMenu{
+    width: 3.5em;
+    height: auto;
+    margin: 10px;
+}
+.pMenu{
+    margin: 0;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+.liMenu:hover{
+    background-color: #fff;
+    color: #000;
+}
