@@ -7,7 +7,19 @@
     flex-wrap: wrap;
     justify-content: space-between;
 }
+.photographsGallery div{
+    width: 95%; /* Ajusta el ancho de las imágenes según sea necesario */
+    gap: 1em;
+}
 .photographsGallery img{
-    width: 45%; /* Ajusta el ancho de las imágenes según sea necesario */
-    margin-bottom: 10px; /* Espacio entre las imágenes */
+    width: 100%;
+}
+.photographsGallery p{
+    font-weight: 500;
+    font-size: 1.2em;
+    color: var(--color-gray);
+    margin: .8em 0 .8em 15px;
+}
+.photosColumn{
+    flex: 45%;
 }
