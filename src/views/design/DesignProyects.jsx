@@ -1,8 +1,19 @@
 import React from 'react'
+import './DesignProyects.css'
 
 function DesignProyects() {
   return (
-    <div>DesignProyects</div>
+    <article className='sideMenuSpace'>
+      <section className='proyectSection1'>
+        <div>
+          <img src="" alt="venus" />
+          <img src="" alt="venus" />
+        </div>
+        <img src="" alt="icono venus" />
+      </section>
+      <section></section>
+      <section></section>
+    </article>
   )
 }
 

@@ -7,9 +7,7 @@ function Home() {
   return (
     <>
       <article className='sideMenuSpace homeView homeGrid'>
-        <section className="homeGrid1 homeYo">
-          {/*           <img src={yo} alt="Foto Valentina (VENUS)" className='homeYo'/> */}
-        </section>
+        <section className="homeGrid1 homeYo"></section>
         <section className="homeGrid2 homeText">
           <p>¡HOLA!
             <br /><br />

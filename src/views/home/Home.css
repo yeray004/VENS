@@ -49,24 +49,15 @@
 .homeText p {
     margin: 0;
     font-weight: 600;
-    font-size: 100%;
+    font-size: 140%;
 }
 
 .homeCarousel {
     width: 100%;
-    height: 250px;
+    height: 400px;
     object-fit: cover;
 }
 
-@media (min-width: 1440px) {
-    .homeText p {
-        font-size: 150%;
-    }
-
-    .homeCarousel {
-        height: 400px;
-    }
-}
 
 .collapsible {
     width: 100%;
@@ -134,4 +125,10 @@
     color: gray;
     padding: 0;
     margin: 0;
+}
+
+@media (min-width: 1440px) {
+    .homeText p {
+        font-size: 150%;
+    }
 }

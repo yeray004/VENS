@@ -6,7 +6,10 @@ import flor from '../assets/MENU-LATERAL/ProyectosDiseno_FondoNegro.Verde.png'
 import ilustraciones from '../assets/MENU-LATERAL/Ilustraciones_FondoNegro.Rosado.png'
 import fotos from '../assets/MENU-LATERAL/Fotografias_FondoNegro.Verde.png'
 
-function sideMenu() {
+import { Link } from 'react-router-dom'
+
+
+function SideMenu() {
   return (
     <>
     <aside>
@@ -14,8 +17,10 @@ function sideMenu() {
       <div>
         <ul className="ulMenu">
           <li className="liMenu">
-            <img src={person} alt="icon" className="imgMenu" />
-            <p className="pMenu">Sobre mí</p>
+            {/* <Link to='/'> */}
+              <img src={person} alt="icon" className="imgMenu" />
+              <p className="pMenu">Sobre mí</p>
+            {/* </Link> */}
           </li>
           <li className="liMenu">
             <img src={flor} alt="icon" className="imgMenu" />
@@ -36,4 +41,4 @@ function sideMenu() {
     )
 }
 
-export default sideMenu
+export default SideMenu
