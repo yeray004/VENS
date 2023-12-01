@@ -15,9 +15,7 @@ body{
 #root{
   display: flex;
 }
-.red{
-  background-color: red;
+.sideMenuSpace{
   width: 100%;
-  height: 100%;
-  margin-left: 25%; /* Afecat directamente SideMenu.css en la etiqueta aside  */
+  margin-left: 25%; /* Afecta directamente SideMenu.css en la etiqueta aside (Clase que contienen todas las vistas)  */
 }

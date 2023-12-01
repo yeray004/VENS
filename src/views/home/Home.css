@@ -1,0 +1,137 @@
+.homeView {
+    padding: 2em 1em 0;
+    min-height: 95vh;
+}
+
+.homeView section {
+    margin: 1em;
+}
+
+.homeGrid {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.homeGrid1 {
+    grid-area: 1 / 1 / 5 / 4;
+}
+
+.homeGrid2 {
+    grid-area: 1 / 4 / 5 / 9;
+}
+
+.homeGrid3 {
+    grid-area: 5 / 1 / 8 / 4;
+}
+
+.homeGrid4 {
+    grid-area: 5 / 4 / 8 / 9;
+    overflow: hidden;
+}
+
+.homeYo {
+    background-image: url("../../assets/HOME/FotoYO.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.homeText {
+    display: flex;
+    border: solid 2px black;
+    padding: 3em;
+    align-items: center;
+}
+
+.homeText p {
+    margin: 0;
+    font-weight: 600;
+    font-size: 100%;
+}
+
+.homeCarousel {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+@media (min-width: 1440px) {
+    .homeText p {
+        font-size: 150%;
+    }
+
+    .homeCarousel {
+        height: 400px;
+    }
+}
+
+.collapsible {
+    width: 100%;
+    overflow: hidden;
+}
+.collapsible input {
+    display: none;
+}
+.collapsible label {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    padding: 15px 20px;
+    margin-bottom: 8px;
+    font-size: 1.3em;
+    font-weight: 500;
+    border: solid 2px black;
+    border-radius: 100px;
+    z-index: 1;
+    transition: all .2s;
+}
+.collapsible label::after label:hover {
+    content: "";
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    width: 18px;
+    height: 18px;
+}
+.collapsible label:hover{
+    color: #fff;
+    background-color: black;
+}
+.collapsible-text {
+    margin-bottom: 8px;
+    max-height: 0;
+    overflow: hidden;
+    line-height: 1.4;
+    position: relative;
+    border: solid 2px black;
+    top: -100%;
+    opacity: 0;    /* Cambiado a 0 para iniciar oculto */
+    transition: all 0.3s ease;
+}
+.collapsible input:checked~.collapsible-text {
+    max-height: 600px;
+    padding: 15px 15px 25px;
+    opacity: 1;
+    top: 0;
+}
+.collapsible input:checked~ label{
+    color: #fff;
+    background-color: black;
+}
+.collapsible-text h2, .collapsible-text li {
+    font-weight: 700;
+    font-size: 1.7em;
+    margin: 0;
+    padding: 15px 0 0;
+    line-height: 24px;
+}
+.collapsible-text p {
+    font-weight: 500;
+    font-size: 1.2em;
+    color: gray;
+    padding: 0;
+    margin: 0;
+}

@@ -28,11 +28,11 @@ aside{
 .imgMenu{
     width: 3.5em;
     height: auto;
-    margin: 10px;
+    margin: 2px 6px;
 }
 .pMenu{
     margin: 0;
-    font-size: 1.4em;
+    font-size: 130%;
     font-weight: 500;
 }
 .liMenu:hover{
