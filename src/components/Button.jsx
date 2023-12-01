@@ -1,9 +1,9 @@
 import React from 'react'
 import './Button.css'
 import mas from '../assets/MENU-DESPLEGABLE/masRosado.png'
-import igIcon from '../assets/MENU-DESPLEGABLE/insta_rosado.png'
-import whatsapp from '../assets/MENU-DESPLEGABLE/whatsapp_rosado.png'
-import mail from '../assets/MENU DESPLEGABLE/correo_rosado.png'
+import igIcon from '../assets/MENU-DESPLEGABLE/Insta_Rosado.png'
+import whatsapp from '../assets/MENU-DESPLEGABLE/Whatsapp_Rosado.png'
+import mail from '../assets/MENU DESPLEGABLE/Correo_Rosado.png'
 
 
 function Button() {
