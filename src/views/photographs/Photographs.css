@@ -1,0 +1,13 @@
+
+.photographs{
+    padding: 3em;
+}
+.photographsGallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.photographsGallery img{
+    width: 45%; /* Ajusta el ancho de las imágenes según sea necesario */
+    margin-bottom: 10px; /* Espacio entre las imágenes */
+}

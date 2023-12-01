@@ -35,6 +35,10 @@
     width: 45%;
 }
 
+.seccionTitulos{
+    margin-top: 15px;
+}
+
 .proyectView{
     display: flex;
     flex-direction: column;

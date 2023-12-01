@@ -16,7 +16,7 @@ import whiteTarot from '../../assets/PROYECTOS/ID-VISUAL/THEMYSCIRAWHITE.png'
 function DesignProyects() {
   return (
     <article className='sideMenuSpace proyectView'>
-      <h1>Maquetación</h1><hr />
+      <h1 className='seccionTitulos'>Maquetación</h1><hr />
       <section className='maquetacion'>
         <img src={folleto2} alt="" className='maquetacion1' />
         <img src={folletoCam} alt="" className='maquetacion1' />
@@ -29,7 +29,7 @@ function DesignProyects() {
         </div>
         <a href="">¡HECHA UN VISTAZO!</a>
       </section>
-      <h1>Identidad de marca</h1><hr />
+      <h1 className='seccionTitulos'>Identidad de marca</h1><hr />
       <section className='proyectSection1'>
         <img src={venus3} alt="venus" />        
       </section>
@@ -47,7 +47,7 @@ function DesignProyects() {
         <img src={blackTarot} alt="icono venus" />
         <img src={whiteTarot} alt="themyscira tarot" />
       </section>
-      <h1>Personajes</h1><hr />
+      <h1 className='seccionTitulos'>Personajes</h1><hr />
     </article>
   )
 }
